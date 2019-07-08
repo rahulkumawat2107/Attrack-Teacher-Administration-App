@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".Notice">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:text="Create Notice"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"/>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Notice Title"
+        android:id="@+id/notice_title"/>
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_file"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_below="@+id/notice_title"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/submit"
+        android:textColor="#fff"
+        android:text="Select File"
+        />
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/select_file"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/submit"
+        android:textColor="#fff"
+        android:id="@+id/upload_file"
+        android:text="Upload"/>
+
+    </RelativeLayout>
+</LinearLayout>

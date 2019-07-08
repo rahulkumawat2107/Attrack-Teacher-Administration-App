@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Attrack Database</string>
+
+
+    <array name="subjects">
+        <item>Operating System</item>
+        <item>Theory of Computation</item>
+        <item>Embedded Systems</item>
+        <item>Advance Data Structure</item>
+        <item>Artificial Intelligence</item>
+        <item>Computer Networks</item>
+
+    </array>
+</resources>

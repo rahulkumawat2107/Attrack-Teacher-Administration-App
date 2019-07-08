@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Welcome Admin"
+        android:layout_gravity="center_horizontal"/>
+
+    <ScrollView
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@drawable/buttons"
+        android:id="@+id/student_regis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add/Remove Student"
+        />
+    <Button
+        android:clickable="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/buttons"
+        android:id="@+id/teacher_regis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add/Remove Teacher"
+        />
+
+            <Button
+                android:layout_marginTop="4dp"
+                android:background="@drawable/buttons"
+                android:id="@+id/subject_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add/remove Subject"
+                />
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@drawable/buttons"
+        android:id="@+id/events_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Events update"
+        />
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@drawable/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grades"
+        android:id="@+id/grades"
+        />
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@drawable/buttons"
+        android:id="@+id/exams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exams update"
+        />
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@drawable/buttons"
+        android:id="@+id/notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Notice"/>
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:background="@drawable/buttons"
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

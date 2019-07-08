@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeacherLogin">
+
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Welcome"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Your Class"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <Spinner
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/spinner_class"></Spinner>
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:text="Take Attendance"
+            android:layout_margin="5dp"
+            android:onClick="takeAttendanceButton"
+            android:background="@drawable/buttons"
+            android:id="@+id/button_attendance"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttons"
+            android:text="Logout"
+            android:onClick="logoutTeacher"
+            android:id="@+id/button_logout"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
